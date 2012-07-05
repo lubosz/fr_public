@@ -32,6 +32,10 @@
 //  HEADER BEGINS HERE
 //
 
+#include <stdio.h>
+#include <string.h>
+
+
 #ifndef STB_VORBIS_INCLUDE_STB_VORBIS_H
 #define STB_VORBIS_INCLUDE_STB_VORBIS_H
 
