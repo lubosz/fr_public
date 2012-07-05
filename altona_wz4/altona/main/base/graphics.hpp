@@ -956,6 +956,7 @@ enum sShaderTypeFlag
   sSTF_PROFILE  = 0x00ff,
   sSTF_PLATFORM = 0x0f00,
   sSTF_KIND     = 0xf000,
+  sSTF_NVIDIA   = 0x0100
 };
 
 
@@ -964,7 +965,7 @@ enum sShaderCompileFlag
   sSCF_DEBUG          = 0x00010000,   // generating debug infos
   sSCF_AVOID_CFLOW    = 0x00020000,   // avoiding control flow
   sSCF_PREFER_CFLOW   = 0x00040000,   // prefer control flow
-  sSCF_DONT_OPTIMIZE  = 0x00080000,   // skip optimization
+  sSCF_DONT_OPTIMIZE  = 0x00080000   // skip optimization
 };
 
 /****************************************************************************/
