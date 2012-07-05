@@ -16,7 +16,7 @@ LIBS    = -lbase -lutil -lpthread -lrt
 CFLAGS      = -O2 -Wall -Werror -I$(INCDIR)  -fno-strict-aliasing -fshort-wchar -msse
 CXXFLAGS    = -O2 -Wall $(DEFINES) $(INCDIR) -fno-exceptions -fno-strict-aliasing -fno-rtti -fshort-wchar -msse
 
-LDFLAGS     = -Wl -mno-crt0 $(LIBDIR) -lm
+LDFLAGS     =  $(LIBDIR) -lm
 
 #
 # Rules
